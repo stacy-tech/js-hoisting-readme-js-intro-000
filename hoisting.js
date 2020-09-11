@@ -8,13 +8,12 @@ function callMe() {
   callme()
 }
 
-
 function crazy() {
+  //fix the code in here:
   thisIsCrazy();
 
-  var thisIsCrazy = function (){
-    console.log("hey!!!")
-    var crazy = function() {
+    var thisIsCrazy =function () {
+      console.log("hey!!!")
   }
 }
 
@@ -23,11 +22,12 @@ function sayMyName() {
   var name = "Cricky";
 
   function sayMy() {
-    name = "Kristin";
     console. log(name);
+    name = "Kristin";
   }
 
   sayMy();
+}
   sayMyname()()
 var sayMyName= function() {
   var name;
