@@ -28,10 +28,20 @@ function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
 
-  sayMy();
-
 function sayMy() {
+  name = "Kristin";
     console. log(name);
-    var name = "Kristin";
   }
+  sayMy();
 }
+sayMyName()()
+var sayMyName = function(){
+  var name;
+  name = "Cricky";
+  function sayMy(){
+    name = "Kristin";
+    console. log(name);
+}
+sayMy();
+}
+sayMyName()()
